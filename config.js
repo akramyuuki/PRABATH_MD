@@ -4,25 +4,25 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER.split(",")
-global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://akrambajouli34:4UXlESj1pPssCjZz@cluster0.qcit3kj.mongodb.net/"
 global.port= process.env.PORT || 5000
 global.email = 'sam@sec.live'
 global.github = 'https://github.com/prabathLK/PRABATH-MD'
 global.location = 'Sultanpur IN'
-global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94762280384'
-global.devs = '94762280384';
-global.website = 'https://github.com/prabathLK/PRABATH-MD' //wa.me/+94762280384
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/H062oEI.jpeg'
+global.gurl = 'https://instagram.com/' // yukigeoo
+global.sudo = process.env.SUDO ||'212715056645'
+global.devs = '212715056645';
+global.website = 'https://github.com/prabathLK/PRABATH-MD' //wa.me/+212715056645
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/1dfnt7O.jpeg'
 module.exports = {
-  botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
+  botname: process.env.BOT_NAME || '💕a💕k💕r💕a💕m',
   autosticker: process.env.AUTO_STICKER || 'false',
-  autovoice: process.env.AUTO_VOICE || 'false',
+  autovoice: process.env.AUTO_VOICE || 'true',
   botapikey: process.env.BOTCAHX_API || '',
-  alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
-  alivemsj: process.env.ALIVE_MSJ || '*The bot developer is prabath* 🎊',
-  ownername:process.env.OWNER_NAME || 'PRABATH',
-  sessionName: process.env.SESSION_ID || 'PUT-HERE',
+  alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/6a15f3a940f3e92118db0.jpg',
+  alivemsj: process.env.ALIVE_MSJ || '*Warani 7ay hhhh mani myt lah ihdik 😂🤦🏻‍♂️',
+  ownername:process.env.OWNER_NAME || 'akram',
+  sessionName: process.env.SESSION_ID || 'PRABATH-MD::UFJBQkFUSC1NRDo6c2Vzc2lvbl9yYV8xMjIwZGJkYjRiMzcxZV92aTo6R3JhbW15UHJvZHVjZWQKOjoxZGMwMTI0OGI0ZTMxYmIyNGI3ZDliNGNlNTY=',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
   packname: process.env.PACK_INFO.split(";")[1] || 'Name',
