@@ -31,7 +31,7 @@ module.exports = {
   alwaysonline: process.env.ALWAYS_ONLINE || 'false',
   antifake : process.env.FAKE_COUNTRY_CODE || '50000',
   readmessage: process.env.READ_MESSAGE || false,
-  HANDLERS: process.env.PREFIX || ['.'],
+  HANDLERS: process.env.PREFIX || ['akram],
   warncount : process.env.WARN_COUNT || 3,
   disablepm: process.env.DISABLE_PM || "flase",
   levelupmessage: process.env.LEVEL_UP_MESSAGE || 'false',
