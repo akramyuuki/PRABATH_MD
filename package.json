@@ -1,7 +1,7 @@
 {
-               "name": "Secktor-Md",
+               "name": "AKRAM_Yuki",
                "version": "0.0.6",
-               "description": "Multi device whatsapp bot by SamPandey001.",
+               "description": "Multi device whatsapp bot by 💕k💕a💕r💕a💕m azbii.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
@@ -9,7 +9,7 @@
                 "start": "pm2 start lib/client.js --deep-monitoring --attach --name prabath",
                 "stop": "pm2 stop prabath"
                 },
-               "author": "SamPandey001",
+               "author": "akram hh",
               "dependencies": {
                        "@adiwajshing/baileys": "^4.4.0", 
                        "@adiwajshing/keyed-db": "^0.2.4",
